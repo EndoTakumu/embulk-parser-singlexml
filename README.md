@@ -10,7 +10,7 @@ embulkを使用して、xmlから好きな名前でカラムを作成する<br>
 
 ## Example
 
-*input.xml
+* input.xml
 ```yaml
 <root>
     <a>
@@ -22,7 +22,7 @@ embulkを使用して、xmlから好きな名前でカラムを作成する<br>
     </a>    
 </root>
 ```
-*config.yml
+* config.yml
 ```yaml
 in:
   type: file
@@ -36,8 +36,8 @@ exec: {}
 out:
  type: stdout
 ```
+* preview
 ```yaml
-*preview
 +----------------+----------------+
 | a_name1:string | c_name2:string |
 +----------------+----------------+
