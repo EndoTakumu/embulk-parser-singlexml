@@ -1,7 +1,8 @@
 # Singlexml parser plugin for Embulk
 
 embulkを使用して、xmlから好きな名前でカラムを作成する<br>
-※1レコードしか作成できない（複数のレコードに対応：https://github.com/EndoTakumu/embulk-parser-convxml.git）※
+※1レコードしか作成できない※<br>
+複数のレコードに対応：https://github.com/EndoTakumu/embulk-parser-convxml.git
 
 
 ## Overview
